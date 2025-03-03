@@ -1,0 +1,17 @@
+{
+  "morgan": {
+    "type": "dev",
+    "directory": null
+  },
+  "accounting": {
+    "roles":["USER","ADMIN","PREMIUM_USER"],
+    "user_role":"USER",
+    "admin_role": "ADMIN",
+    "salt_rounds": 10,
+    "expiredIn":"24h"
+  },
+  "userLimits": {
+    "requestCount": 3,
+    "requestCountPeriod": "20s"
+  }
+}

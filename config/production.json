@@ -1,0 +1,17 @@
+{
+  "morgan": {
+    "type": "combined",
+    "directory": "logs"
+  },
+  "accounting": {
+    "roles":["USER","ADMIN"],
+    "user_role":"USER",
+    "admin_role": "ADMIN",
+    "salt_rounds": 10,
+    "expiredIn":"30d"
+  },
+  "userLimits": {
+    "requestCount": 2,
+    "requestCountPeriod": "30s"
+  }
+}
